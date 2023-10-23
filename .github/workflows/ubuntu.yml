@@ -1,4 +1,4 @@
-name: Arch Linux
+name: Ubuntu Linux
 
 on:
   workflow_dispatch:
