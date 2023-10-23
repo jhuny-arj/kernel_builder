@@ -2,7 +2,7 @@
 
 # clone repo
 git clone --depth=1 https://github.com/jhuny-arj/android_kernel_realme_RM6785.git  -b ksu
-cd ThunderstormReborn-RM6785
+cd android_kernel_realme_RM6785
 # Dependencies
 deps() {
         echo "Cloning dependencies"
