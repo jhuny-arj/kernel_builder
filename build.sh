@@ -26,12 +26,12 @@ PATH="${PWD}/clang/bin:${PATH}"
 export KBUILD_COMPILER_STRING
 ARCH=arm64
 export ARCH
-KBUILD_BUILD_HOST=MrMnml
+KBUILD_BUILD_HOST=tux-droid
 export KBUILD_BUILD_HOST
-KBUILD_BUILD_USER="edith.brownie"
+KBUILD_BUILD_USER="aztuxbrz"
 
 export KBUILD_BUILD_USER
-DEFCONFIG="RM6785_defconfig"
+DEFCONFIG="x695c-docker-bitfrostdrvUpdt_defconfig"
 export DEFCONFIG
 PROCS=$(nproc --all)
 export PROCS
