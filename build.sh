@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # clone repo
-git clone --depth=1 https://gitlab.com/No1really/ThunderstormReborn-RM6785.git  -b Reborn-BT
+git clone --depth=1 https://github.com/jhuny-arj/android_kernel_realme_RM6785.git  -b ksu
 cd ThunderstormReborn-RM6785
 # Dependencies
 deps() {
