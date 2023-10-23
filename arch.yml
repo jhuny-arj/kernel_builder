@@ -9,7 +9,7 @@ defaults:
 
 jobs:
   arch:
-    runs-on: ubuntu-latest
+    runs-on: archlinux-latest
     container:
       image: panchajanya1999/archlinux:latest
 
