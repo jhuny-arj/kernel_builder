@@ -20,6 +20,6 @@ jobs:
       - name: build
         run: |
           sudo pacman -Syu --noconfirm wget git openmp base-devel bc zip
-          git clone --depth=1 https://github.com/jhuny-arj/android_kernel_realme_RM6785.git  -b ksu
+          git clone --depth=1 https://github.com/jhuny-arj/android_kernel_realme_RM6785.git  -b full-lto
           cd android_kernel_realme_RM6785
           bash build.sh
